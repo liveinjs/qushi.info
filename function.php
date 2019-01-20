@@ -1,5 +1,5 @@
 <?php
-//wordpress 熊掌号机构化改造
+//wordpress 熊掌号机构化改造，这段代码放入风格文件的header.php中即可通过百度验证。
 if(is_single()){
   $id = get_permalink();
   $pid = get_the_id();
